@@ -168,7 +168,7 @@ class _RegistrationFormScreen extends State<RegistrationFormScreen> {
     Map<String, Object> initialValues = {
       AppUtils.babyFirstNameKey: '',
       AppUtils.babyWeight: '',
-      AppUtils.babygender: Null,
+      AppUtils.babygender: 0,
       AppUtils.motherKey: '',
       AppUtils.doctorNameKey: '',
       AppUtils.hospitalNameKey: '',
