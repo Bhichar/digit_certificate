@@ -1,0 +1,61 @@
+import 'birth_registration/birth_registration_model.dart';
+
+class DummyData {
+  static List<BirthRegistrationModel> dummyList = [
+    const BirthRegistrationModel(
+      id: 1,
+      babyFirstName: 'Ankit',
+      doctorName: 'Dr. Bhichar',
+      babygender: 1,
+      babyWeight: '12',
+      hospitalName: 'City Hospital',
+      mother: 'Mrs. abc',
+      placeOfBirth: 'Jaipur',
+      tenantId: 'T123',
+    ),
+    const BirthRegistrationModel(
+      id: 2,
+      babyFirstName: 'Rohit',
+      babygender: 2,
+      babyWeight: '12',
+      doctorName: 'Dr. Meena',
+      hospitalName: 'Community Hospital',
+      mother: 'Mrs. Meena',
+      placeOfBirth: 'Udaipur',
+      tenantId: 'T17890',
+    ),
+    const BirthRegistrationModel(
+      id: 3,
+      babyFirstName: 'Sheetal',
+      doctorName: 'Dr. Sharma',
+      babygender: 2,
+      babyWeight: '12',
+      hospitalName: 'City Hospital',
+      mother: 'Mrs. Choudhary',
+      placeOfBirth: 'Jaipur',
+      tenantId: 'T1234',
+    ),
+    const BirthRegistrationModel(
+      id: 4,
+      babyFirstName: 'Suresh',
+      babygender: 1,
+      babyWeight: '12',
+      doctorName: 'Dr. Jaiswal',
+      hospitalName: 'City Hospital',
+      mother: 'Mrs. Choudhary',
+      placeOfBirth: 'Jaipur',
+      tenantId: 'T12',
+    ),
+    const BirthRegistrationModel(
+      id: 5,
+      babyFirstName: 'Ananya',
+      babygender: 2,
+      babyWeight: '12',
+      doctorName: 'Dr. Mehta',
+      hospitalName: 'City Hospital',
+      mother: 'Mrs. Patel',
+      placeOfBirth: 'Mumbai',
+      tenantId: 'T12345',
+    ),
+  ];
+}
